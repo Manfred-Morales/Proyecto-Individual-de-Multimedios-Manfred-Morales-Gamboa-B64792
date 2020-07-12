@@ -1,0 +1,16 @@
+{
+  "name": "proyectob64792",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css --output-style expanded"
+
+  },
+  "author": "manfred morales",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
