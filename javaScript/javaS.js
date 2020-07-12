@@ -2,7 +2,7 @@ var listaimg = ["img/foto 1.jpg", "img/foto 2.jpg", "img/foto 3.jpg","img/foto 4
 
 var x=0;
 
-function cambioImagenes(){
+function changeimages(){
     if (x > 3){
         x=0;
     }
@@ -10,4 +10,4 @@ function cambioImagenes(){
     x++;
 }
 
-temporizador =setInterval("cambioImagenes()", 2000);
+temporizador =setInterval("changeimages()", 2000);

@@ -297,7 +297,7 @@ header {
   }
 }
 
-.propietario {
+.owner {
   margin-left: 60px;
   margin-top: 80px;
   font-size: 30px;
@@ -307,21 +307,21 @@ header {
 }
 
 @media (max-width: 767px) {
-  .propietario {
+  .owner {
     margin-left: 10px;
     margin-top: 0px;
   }
 }
 
 @media (max-width: 767px) {
-  .fotocontenedor {
+  .photocontainer {
     width: 100%;
     display: flex;
     justify-content: center;
   }
 }
 
-.fotocontenedor__img {
+.photocontainer__img {
   width: 300px;
   height: auto;
   border-radius: 150px;
